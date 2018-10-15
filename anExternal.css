@@ -1,0 +1,31 @@
+h1{font-size:70px; color:purple}
+h2{front-size:50px; color:gold}
+/* 
+<p>Three values - border-radius: 15px 50px 30px:</p>
+<p id="rcorners2"></p>
+ */
+.container {
+    position: relative;
+    text-align: center;   
+}
+.centered {
+    position: absolute;
+    color: gold; 
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    margin:auto;
+}
+.dotted {border-style: dotted;}
+.pineapple {
+    float: right;
+}
+#green {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
